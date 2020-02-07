@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import H1 from '../atoms/H1'
+import { H1 } from '../atoms/H1'
 import { Paragraph } from '../atoms/Paragraph'
 import Divider from '@material-ui/core/Divider';
 
@@ -11,7 +11,7 @@ export class ProjectsDev extends Component {
         return (
             <div>
                 <div>
-                    <H1 title='Mis Proyectos' />
+                <H1>Proyectos</H1>
                 </div>
                 <div>
                 <Divider variant="middle" />

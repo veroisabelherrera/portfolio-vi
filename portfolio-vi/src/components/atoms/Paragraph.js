@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 export const Paragraph = ({children}) => (
 <p className="text" style={textStyle}>{children}</p>
 )
 
 const textStyle = {
-    color: '#f2b705',
-    fontSize: '14px',
+    color: '#525252',
+    fontSize: '15px',
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import H1 from '../atoms/H1'
-import { Paragraph } from '../atoms/Paragraph'
+import { H1 } from '../atoms/H1'
+import { H2 } from '../atoms/H2'
 import Divider from '@material-ui/core/Divider';
 import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
 
@@ -10,21 +10,55 @@ import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
 export class SkillsDev extends Component {
     render() {
         return (
-            <div>
+            <div className="skills-container">
                 <div>
-                    <H1 title='Herramientas' />
-                </div>
-                <div>
-                <Divider variant="middle" />
-                </div>
-                <div>
-                    <Paragraph>Y yo s</Paragraph>
-                </div>
-                <div>
-                <img src="https://img.icons8.com/ios/50/000000/javascript.png">
-                </div>
+                    <div className="skills-title">
+                    <H1><strong>Herramientas</strong></H1>
+                    </div>
 
+                    <div className="skills-icons-container">
+                        <div className="skills-h2">
+                            <H2>Desarrollo web</H2>
+                        </div>
+
+                        <div className="v-divider">
+                            <Divider orientation="vertical" />
+                        </div>
+
+                        <div className="skills-list-icons">
+                            <img src={require('../../assets/skills-a_02.png')} className="icon-skills" />
+                            <img src={require('../../assets/skills-a_03.png')} className="icon-skills" />
+                            <img src={require('../../assets/skills-a_04.png')} className="icon-skills" />
+                            <img src={require('../../assets/skills-a_05.png')} className="icon-skills" />
+                            <img src={require('../../assets/skills-a_06.png')} className="icon-skills" />
+                        </div>
+                    </div>
+
+                    <div className="skills-icons-container">
+                        <div className="skills-h2">
+                            <H2>Diseño y prototipado web</H2>
+                        </div>
+
+                        <div className="v-divider">
+                            <Divider orientation="vertical" />
+                        </div>
+
+                        <div className="skills-list-icons">
+                            <img src={require('../../assets/skills-a_07.png')} className="icon-skills" />
+                            <img src={require('../../assets/skills-a_08.png')} className="icon-skills" />
+                            <img src={require('../../assets/skills-a_09.png')} className="icon-skills" />
+                            <img src={require('../../assets/skills-a_10.png')} className="icon-skills" />
+                            <img src={require('../../assets/skills-a_11.png')} className="icon-skills" />
+                        </div>
+                    </div>
+
+                </div>
             </div>
         )
     }
+}
+
+const titleH1 = {
+    color: '#444444',
+    fontSize: '36px'
 }

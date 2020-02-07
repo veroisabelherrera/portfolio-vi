@@ -1,16 +1,177 @@
 .App {
   text-align: center;
+  background-color: #e3e3e3;
+  height: 100%;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
+  margin: 15px;
   pointer-events: none;
 }
 
+.root-wrapper {
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide-container {
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+}
+
+.nav-btn {
+  height: 5vmin;
+  margin: 20px;
+}
+
+.intro-container {
+  align-items: center;
+  display: flex;
+  height: 60vh;
+  text-align: right;
+  width: 100%;
+  margin: auto;
+}
+
+.text-intro-container {
+  align-items: center;
+  padding: 40px;
+  text-align: right;
+  width: 50%;
+}
+
+.photo-intro-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.intro-photo {
+  height: 55vmin;
+}
+
+.about-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 60vh;
+  width: 100%;
+}
+
+.about-title {
+  margin-left: 40%;
+  text-align: left;
+  width: 50%;
+}
+
+.description-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.about-h2 {
+  padding: 20px;
+  text-align: right;
+  width: 15%;
+}
+
+.about-text {
+  padding: 10px;
+  text-align: left;
+  width: 40%;
+}
+
+
+.skills-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 60vh;
+  width: 100%;
+}
+
+.skills-title {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.skills-icons-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.skills-h2 {
+  padding: 20px;
+  text-align: right;
+  width: 15%;
+}
+
+.skills-list-icons {
+  display: flex;
+  padding: 10px;
+  text-align: left;
+  width: 60%;
+}
+
+.icon-skills {
+  height: 10vmin;
+  padding: 10px 15px;
+}
+
+.contact-title{
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+.contact-h2{
+  padding: 20px;
+  text-align: right;
+  width: 30%;
+}
+
+.icon-socials{
+  display: flex;
+}
+
+.icon-contact {
+  height: 5vmin;
+  padding: 10px;
+}
+
+.icon-email {
+  height: 4vmin;
+  padding: 10px;
+}
+
+
+
+.footer {
+  align-items: center;
+  background-color: #525252;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 1px;
+  width: 100%;
+}
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
 }
 
 .App-header {
