@@ -185,13 +185,11 @@
   padding: 30px 20px;
 }
 
-
-
 .footer {
   align-items: center;
   background-color: #525252;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 10vh;
   padding: 1px;
   width: 100%;
 }
@@ -300,6 +298,10 @@
   .icon-email {
     height: 7vmin;
     padding: 0;
+  }
+
+  .footer {
+    margin-top: 6vh;
   }
   
 
