@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { H1 } from '../atoms/H1'
-import { H2 } from '../atoms/H2'
+import { H3 } from '../atoms/H3'
 import Divider from '@material-ui/core/Divider';
 import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
 
@@ -18,7 +18,7 @@ export class SkillsDev extends Component {
 
                     <div className="skills-icons-container">
                         <div className="skills-h2">
-                            <H2>Desarrollo web</H2>
+                            <H3>Desarrollo web</H3>
                         </div>
 
                         <div className="v-divider">
@@ -36,7 +36,7 @@ export class SkillsDev extends Component {
 
                     <div className="skills-icons-container">
                         <div className="skills-h2">
-                            <H2>Diseño y prototipado web</H2>
+                            <H3>Diseño y prototipado web</H3>
                         </div>
 
                         <div className="v-divider">

@@ -1,13 +1,8 @@
 import React from 'react'
 
 export const H1 = ({children}) => (
-<p style={H1Style}>{children}</p>
+<p className="H1Style">{children}</p>
 )
-
-const H1Style = {
-    color: '#525252',
-    fontSize: '36px'
-}
 
 
 

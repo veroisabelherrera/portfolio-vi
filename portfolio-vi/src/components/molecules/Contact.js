@@ -24,10 +24,12 @@ export class Contact extends Component {
                             <Divider orientation="vertical" />
                         </div>
 
-                        <div>
-                            <div className="icon-socials">
+                        <div className="contact-container">
+                            <div className="mail-container">
                                 <img src={require('../../assets/email.svg')} className="icon-email" />
-                                <p>veroisabelhf@gmail.com</p>
+                    
+                                <p className="mail">veroisabelhf@gmail.com</p>
+                                
                             </div>
 
                             <div className="icon-socials">
