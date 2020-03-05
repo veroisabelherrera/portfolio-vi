@@ -4,6 +4,7 @@ import { Intro } from "./Intro";
 import { AboutDev } from "./AboutDev";
 import { SkillsDev } from "./SkillsDev";
 import { Contact } from "./Contact";
+import { Projects } from "./Projects";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -27,6 +28,9 @@ export default class SimpleSlider extends Component {
           </div>
           <div className="skills-container">
             <SkillsDev />
+          </div>
+          <div className="projects-container">
+            <Projects />
           </div>
           <div className="about-container">
             <Contact />
